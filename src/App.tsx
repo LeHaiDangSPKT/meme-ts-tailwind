@@ -1,9 +1,16 @@
-import React from 'react';
+import "./App.css";
+import React from "react";
+
+import Header from "./components/Header";
+import ListMeme from "./components/ListMeme";
 
 function App() {
   return (
-    <div className="bg-black">
-      <h1 className='text-cyan-600'>Hello anh em</h1>
+    <div className="text-secondary">
+      <Header />
+      <div className="m-4">
+        <ListMeme />
+      </div>
     </div>
   );
 }
